@@ -1,14 +1,3 @@
-// console.log(chanson);
-// Structure de Chanson:
-// - auteur: string
-// - titre: string
-// - paroles : [Couplet rrre, ,          , Couplet, ...]
-
-// Structure de Couplet:
-// id : string
-// type : string
-// chanteur : string
-// contenu: tableau contenant les lignes du couplet
 
 // 1.
 let titre = document.createElement("h1")
@@ -50,3 +39,5 @@ document.body.append(footer)
 console.log(footer)
 
 // 4.
+let input1 = document.getElementById("masquer-refrains");
+console.log(input1);
